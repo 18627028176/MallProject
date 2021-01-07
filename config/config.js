@@ -1,6 +1,6 @@
     const config = {
         appkey:'',
-        apiBaseUrl:'http://localhost:53000/'
+        apiBaseUrl:'http://192.168.1.101:8080/'
     }
 
     export {
