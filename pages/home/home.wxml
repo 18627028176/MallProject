@@ -1,3 +1,14 @@
 <view>
-    <image class="top-theme" src="{{topTheme.entrance_img}}"></image>
+    <image class="top-theme" src="{{themeA.entrance_img}}"></image>
+<!--  indicator-dots设置底部滚动小黑点  autoplay设置自动轮播  circular设置循环开始-->
+    <swiper class="swiper" indicator-dots
+            indicator-active-color="#ffca28"
+            autoplay
+            circular>
+        <block wx:for="{{bannerB.items}}">
+            <swiper-item>
+                <image class="swiper" src="{{item.img}}"></image>
+            </swiper-item>
+        </block>
+    </swiper>
 </view>

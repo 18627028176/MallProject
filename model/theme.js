@@ -7,14 +7,11 @@ import {Http} from "../utils/http";
  * @description: 主题
  */
 export class Theme{
-   static getHomeLocaltionA(callback) {
-       Http.request({
+   static async getHomeLocaltionA() {
+       return await Http.request({
            url:`themes`,
            data: {
                id:1
-           },
-           callback:data=> {
-                callback(data)
            }
        })
    }
