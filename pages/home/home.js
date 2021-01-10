@@ -1,6 +1,7 @@
 import {Theme} from "../../model/theme";
 import {Banner} from "../../model/banner";
 import {Category} from "../../model/category";
+import {Activity} from "../../model/activity";
 
 Page({
 
@@ -9,8 +10,14 @@ Page({
    */
   data: {
     themeA:null,
+    themeE:null,
+    themeF:null,
+    thereESpu:[],
     bannerB:null,
-    grid:[]
+    grid:[],
+    activityD:null,
+    bannerG:null,
+    themeH:null
   },
 
   /**
@@ -21,13 +28,38 @@ Page({
   },
 
   async initAllData(){
-    const themeA = await Theme.getHomeLocaltionA()
+    // const themeA = await Theme.getHomeLocaltionA()
     const bannerB = await Banner.getHomeLocationB()
-    const grid = await Category.getGridCategory()
+    const grid = await Category.getHomeLocationC()
+    const activityD = await Activity.getHomeLocationD()
+
+    const themes = new Theme()
+    await themes.getThemes()
+
+    //对集合的操作  find,filter
+    const themeA = themes.getHomeLocaltionA()
+    const themeE = themes.getHomeLocaltionE()
+    let thereESpu = []
+    if (themeE.online){
+      const data = await Theme.getHomeLocaltionESpu()
+      if (data){
+        thereESpu = data.spu_list.slice(0,8)
+      }
+    }
+    const themeF = themes.getHomeLocaltionF()
+
+    const bannerG = await Banner.getHomeLocationG()
+    const themeH = await themes.getHomeLocaltionH()
     this.setData({
-      themeA:themeA[0],
+      themeA,
+      themeE,
+      themeF,
+      thereESpu,
       bannerB:bannerB[0],
-      grid
+      grid,
+      activityD,
+      bannerG:bannerG[0],
+      themeH
     })
   },
 

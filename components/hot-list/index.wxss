@@ -1,0 +1,42 @@
+/* components/hot-list/index.wxss */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40rpx;
+    background-color: #ffffff;
+}
+
+.title{
+    width: 690rpx;
+    height: 90rpx;
+}
+
+.inner-container{
+    margin-top: 32rpx;
+    display: flex;
+    flex-direction: row;
+    /*让元素向四周分布，中间会空出一个间隙（前提是先设置容器的宽度）*/
+    width: 100%;
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+    width: 346rpx;
+    height: 522rpx;
+}
+
+.right-container{
+    display: flex;
+    flex-direction: column;
+    /*这里的view有固定高度，所以不用设置高度*/
+    justify-content: space-between;
+}
+
+.right-size{
+    width: 400rpx;
+    height: 260rpx;
+    display: flex;
+}
