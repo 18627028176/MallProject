@@ -1,0 +1,35 @@
+/**
+ * @name: price
+ * @author: zhuhao
+ * @data 2021/1/13 21:48
+ * @description: 原价和折扣价之间的逻辑
+ */
+
+/**
+ * 主价格
+ */
+function mainPrice(price,discountPrice){
+    if (!discountPrice){
+        return price
+    }else {
+        return discountPrice
+    }
+}
+
+/**
+ * 划线的价格
+ */
+function slashedPrice(price,discountPrice){
+    if (discountPrice){
+        return price
+    }else {
+        return null
+    }
+
+}
+
+// 在wxs的文件里不能使用ES6 的 export方式导出
+module.exports = {
+    mainPrice:mainPrice,
+    slashedPrice:slashedPrice
+}

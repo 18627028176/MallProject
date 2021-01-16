@@ -1,4 +1,5 @@
 /* components/hot-list/index.wxss */
+@import "../../wxss/sleeve.wxss";
 
 .container{
     display: flex;
@@ -17,7 +18,7 @@
     margin-top: 32rpx;
     display: flex;
     flex-direction: row;
-    /*让元素向四周分布，中间会空出一个间隙（前提是先设置容器的宽度）*/
+    /*让元素向两端分布，中间会空出一个间隙（前提是先设置容器的宽度）*/
     width: 100%;
     justify-content: space-between;
 }

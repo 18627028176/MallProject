@@ -1,0 +1,9 @@
+<view class="container">
+    <view class="title"></view>
+    <block wx:for="{{}}">
+        <s-fence></s-fence>
+    </block>
+    <view class="counter-container">
+
+    </view>
+</view>

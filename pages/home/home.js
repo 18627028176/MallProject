@@ -1,7 +1,9 @@
+import {config} from "../../config/config";
 import {Theme} from "../../model/theme";
 import {Banner} from "../../model/banner";
 import {Category} from "../../model/category";
 import {Activity} from "../../model/activity";
+import {SpuPaging} from "../../model/spu-paging";
 
 Page({
 
@@ -9,6 +11,7 @@ Page({
    * 页面的初始数据
    */
   data: {
+    apiBaseUr:`${config.apiBaseUrl}`,
     themeA:null,
     themeE:null,
     themeF:null,
@@ -17,14 +20,28 @@ Page({
     grid:[],
     activityD:null,
     bannerG:null,
-    themeH:null
+    themeH:null,
+    spuPaging:null,
+    loadingType:'loading'
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   async onLoad(options) {
-    this.initAllData()
+    await this.initAllData()
+    await this.initBottomSpuList()
+  },
+
+  async initBottomSpuList(){
+    const paging = await SpuPaging.getLatestPaging()
+    this.data.spuPaging = paging
+    const data = await paging.getMoreDate()
+    if (!data){
+      return
+    }
+    //瀑布流 refresh参数是重置瀑布流，不需要可以默认省略
+    wx.lin.renderWaterFlow(data.items)
   },
 
   async initAllData(){
@@ -64,16 +81,25 @@ Page({
   },
 
   /**
-   * 页面相关事件处理函数--监听用户下拉动作
+   * 页面上拉触底事件的处理函数
    */
-  onPullDownRefresh: function () {
-
+  onReachBottom: async function () {
+    const data = await this.data.spuPaging.getMoreDate()
+    if (!data){
+      return
+    }
+    wx.lin.renderWaterFlow(data.items)
+    if (!data.moreData){
+      this.setData({
+        loadingType:'end'
+      })
+    }
   },
 
   /**
-   * 页面上拉触底事件的处理函数
+   * 页面相关事件处理函数--监听用户下拉动作
    */
-  onReachBottom: function () {
+  onPullDownRefresh: function () {
 
   },
 

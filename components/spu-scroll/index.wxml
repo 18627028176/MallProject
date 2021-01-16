@@ -10,11 +10,11 @@
 <!--                    当文字长度超过8时，截取前8位后加上"..."-->
                     <text class="spu-text">{{item.title.length>=8?s.substring(item.title,0,7)+'...':item.title}}</text>
                     <!-- autofix  补全小数点后两位-->
-                    <l-price color="#157658"
+                    <l-price
                              autofix
                              l-value-class="price-value"
                              l-unit-class="price-unit"
-                             value="{{item.price}}"></l-price>
+                             value="{{p.mainPrice(item.price,item.discount_price)}}"></l-price>
                 </view>
             </block>
         </view>

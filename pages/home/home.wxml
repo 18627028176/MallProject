@@ -1,27 +1,38 @@
-<view class="container">
-    <image class="top-theme" src="{{themeA.entrance_img}}"></image>
-<!--  indicator-dots设置底部滚动小黑点  autoplay设置自动轮播  circular设置循环开始-->
-    <swiper class="swiper" indicator-dots
-            indicator-active-color="#157658"
-            autoplay
-            circular>
-        <block wx:for="{{bannerB.items}}">
-            <swiper-item>
-                <image class="swiper" src="{{item.img}}"></image>
-            </swiper-item>
-        </block>
-    </swiper>
+<!-- loadmore可以将整个页面当做它的插槽（solt) -->
+<l-loadmore show
+            end-text="暂无更多内容"
+            type="{{loadingType}}">
+    <view slot="content" class="container">
+        <image class="top-theme" src="{{themeA.entrance_img}}"></image>
+        <!--  indicator-dots设置底部滚动小黑点  autoplay设置自动轮播  circular设置循环开始-->
+        <swiper class="swiper" indicator-dots
+                indicator-active-color="#157658"
+                autoplay
+                circular>
+            <block wx:for="{{bannerB.items}}">
+                <swiper-item>
+                    <image class="swiper" src="{{item.img}}"></image>
+                </swiper-item>
+            </block>
+        </swiper>
 
-    <s-category-grid grid="{{grid}}"></s-category-grid>
+        <s-category-grid grid="{{grid}}"></s-category-grid>
 
-    <image class="activity" src="{{activityD.entrance_img}}"></image>
+        <image class="activity" src="{{activityD.entrance_img}}"></image>
 
-    <s-spu-scroll wx:if="{{themeE.online}}"
-            theme="{{themeE}}" spu-list="{{thereESpu}}"></s-spu-scroll>
+        <s-spu-scroll wx:if="{{themeE.online}}"
+                      theme="{{themeE}}" spu-list="{{thereESpu}}"></s-spu-scroll>
 
-    <image src="{{themeF.entrance_img}}" class="quality"></image>
+        <image src="{{themeF.entrance_img}}" class="quality"></image>
 
-    <s-hot-list banner="{{bannerG}}"></s-hot-list>
+        <s-hot-list banner="{{bannerG}}"></s-hot-list>
 
-    <image src="{{themeH.entrance_img}}" class="fashion"></image>
-</view>
+        <image src="{{themeH.entrance_img}}" class="fashion"></image>
+
+        <view class="spu-bottom">
+            <image class="title-spu-bottom" src="{{apiBaseUr}}/title@interest.png"></image>
+            <l-water-flow generic:l-water-flow-item="s-spu-preview" ></l-water-flow>
+        </view>
+    </view>
+</l-loadmore>
+
