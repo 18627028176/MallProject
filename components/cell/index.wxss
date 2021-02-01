@@ -1,0 +1,48 @@
+.container{
+    height: 60rpx;
+    border: 2rpx solid #333333;
+    padding: 2rpx;
+    /*固定盒模型，让外层高度固定为60rpx，没有固定盒模型，会被内层的100%高度定位成60rpx，最后导致整个模型高度为68rpx */
+    box-sizing: border-box;
+}
+
+/* 可选状态下的样式 */
+.inner-container{
+    height: 100%;
+    padding-left: 15rpx;
+    padding-right: 15rpx;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #ffffff;
+    font-size: 24rpx;
+}
+
+/* 禁用状态下的样式*/
+.forbidden{
+    border: 2rpx dashed #bbbbbb;
+    color: #bbbbbb;
+}
+
+/*选中状态*/
+/*最外层的边框样式*/
+.s-outer{
+    border: 2rpx solid #157658;
+}
+
+/* 外层的底色：主题色 */
+.s-inner{
+    background-color: #157658;
+}
+
+.img{
+    display: flex;
+    width: 44rpx;
+    height: 44rpx;
+    margin-right: 10rpx;
+}
+
+/*n*/
+.selected{
+    color: #ffffff;
+}

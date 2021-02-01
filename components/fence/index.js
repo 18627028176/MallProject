@@ -3,7 +3,9 @@ Component({
    * 组件的属性列表
    */
   properties: {
-
+    fence:Object,
+    //获取当前fence的行号
+    x:Number
   },
 
   /**

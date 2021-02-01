@@ -1,0 +1,74 @@
+.sleeve{
+    font-family: zh_mall !important;
+    color: #157658 !important;
+}
+
+.container{
+    height: 82rpx;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+}
+
+.btn-font{
+    color: #ffffff;
+    font-size: 32rpx;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.buy{
+    background-color: #157658;
+    width: 260rpx;
+    height: 100%;
+}
+
+.cart{
+    background-color: #333333;
+    width: 260rpx;
+    height: 100%;
+}
+
+
+.icons{
+    /*固定盒模型，让外层高度固定为60rpx，设置 border、padding 不会影响元素 width 与 height 的尺寸 */
+    box-sizing: border-box;
+    padding-left: 16rpx;
+    padding-right: 22rpx;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /*在弹性盒对象的元素中的各项周围留有空白*/
+    justify-content: space-around;
+    width: 230rpx;
+    height: 100%;
+    color: #999999;
+}
+
+.icons > view{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 元素位于弹性盒对象的中心 */
+    justify-content: center;
+}
+
+.badge{
+    margin-top: 2rpx;
+}
+
+.icons > view:nth-child(1){
+    padding-top: 7rpx;
+}
+.icons > view:nth-child(2){
+    padding-top: 7rpx;
+}
+
+.icons text{
+    font-size: 20rpx;
+}

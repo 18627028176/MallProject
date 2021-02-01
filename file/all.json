@@ -5,7 +5,7 @@
         "title": "清凉一夏，折扣季",
         "description": "秋天是金色的。麦穗是金色的，秋阳是金色的。虽然冬快至，但宜人的温度总是让我们心情愉快#我们为您精选了一系列秋冬折扣商品，慢慢挑选吧~",
         "name": "t-1",
-        "entrance_img": "/image/home1.png",
+        "entrance_img": "http://192.168.1.101:8080/home1.png",
         "extend": null,
         "internal_top_img": "http://i2.sleeve.7yue.pro/m33.png",
         "title_img": "",
@@ -20,7 +20,7 @@
         "entrance_img": null,
         "extend": null,
         "internal_top_img": "http://i2.sleeve.7yue.pro/m1.png",
-        "title_img": "http://i2.sleeve.7yue.pro/m3.png",
+        "title_img": "http://192.168.1.101:8080/themeE.png",
         "tpl_name": null,
         "online": true
     },
@@ -29,7 +29,7 @@
         "title": "风袖甄选",
         "description": "甄选",
         "name": "t-3",
-        "entrance_img": "http://i2.sleeve.7yue.pro/m9.png",
+        "entrance_img": "http://192.168.1.101:8080/yuuki.jpg",
         "extend": null,
         "internal_top_img": "http://i2.sleeve.7yue.pro/m11.png",
         "title_img": "",
@@ -41,14 +41,186 @@
         "title": "时尚穿搭",
         "description": "帅点才有女朋友",
         "name": "t-4",
-        "entrance_img": "http://i2.sleeve.7yue.pro/m10.png",
+        "entrance_img": "http://192.168.1.101:8080/themeH.jpg",
         "extend": null,
         "internal_top_img": "http://i2.sleeve.7yue.pro/m12.png",
         "title_img": "",
         "tpl_name": "irelia",
-        "online": true
+		"online": true
     }
 ],
+"spuList":
+	{
+        "id": 4,
+        "description": "风袖`每周上新`活动#每周都有一款折扣商品，每周都有适合你的唯一专属#有Ins复古风装饰；金属CD唱片夹；每周来逛逛，找到你所喜爱的东西",
+        "name": "t-2",
+        "entrance_img": null,
+        "extend": null,
+        "internal_top_img": "http://i2.sleeve.7yue.pro/m1.png",
+        "online": true,
+		  "spu_list":[
+			{
+				"id":1,
+				"title":"宇智波鼬",
+				"subttile":"全球当季最炫款",
+				"category_id":17,
+				"root_category_id":3,
+				"price":"68.00",
+				"img":"http://192.168.1.101:8080/huoying/0.jpg",
+				"for_theme_img":"",
+				"description":null,
+				"discount_price":"66.00",
+				"tags":"包邮$热门",
+				"is_test":true,
+				"online":true
+			},
+			{
+				"id":2,
+				"title":"宇智波带土",
+				"subttile":"全球当季最炫款",
+				"category_id":17,
+				"root_category_id":3,
+				"price":"68.00",
+				"img":"http://192.168.1.101:8080/huoying/1.jpg",
+				"for_theme_img":"",
+				"description":null,
+				"discount_price":"66.00",
+				"tags":"包邮$热门",
+				"is_test":true,
+				"online":true
+			},
+			{
+				"id":3,
+				"title":"佩恩天道",
+				"subttile":"全球当季最炫款",
+				"category_id":17,
+				"root_category_id":3,
+				"price":"68.00",
+				"img":"http://192.168.1.101:8080/huoying/2.jpg",
+				"for_theme_img":"",
+				"description":null,
+				"discount_price":"66.00",
+				"tags":"包邮$热门",
+				"is_test":true,
+				"online":true
+			},
+			{
+				"id":4,
+				"title":"小南",
+				"subttile":"全球当季最炫款",
+				"category_id":17,
+				"root_category_id":3,
+				"price":"68.00",
+				"img":"http://192.168.1.101:8080/huoying/3.jpg",
+				"for_theme_img":"",
+				"description":null,
+				"discount_price":"66.00",
+				"tags":"包邮$热门",
+				"is_test":true,
+				"online":true
+			},
+			{
+				"id":5,
+				"title":"干柿鬼鲛",
+				"subttile":"全球当季最炫款",
+				"category_id":17,
+				"root_category_id":3,
+				"price":"68.00",
+				"img":"http://192.168.1.101:8080/huoying/4.jpg",
+				"for_theme_img":"",
+				"description":null,
+				"discount_price":"66.00",
+				"tags":"包邮$热门",
+				"is_test":true,
+				"online":true
+			},{
+				"id":6,
+				"title":"赤沙之蝎",
+				"subttile":"全球当季最炫款",
+				"category_id":17,
+				"root_category_id":3,
+				"price":"68.00",
+				"img":"http://192.168.1.101:8080/huoying/5.jpg",
+				"for_theme_img":"",
+				"description":null,
+				"discount_price":"66.00",
+				"tags":"包邮$热门",
+				"is_test":true,
+				"online":true
+			},{
+				"id":7,
+				"title":"角都",
+				"subttile":"全球当季最炫款",
+				"category_id":17,
+				"root_category_id":3,
+				"price":"68.00",
+				"img":"http://192.168.1.101:8080/huoying/6.jpg",
+				"for_theme_img":"",
+				"description":null,
+				"discount_price":"66.00",
+				"tags":"包邮$热门",
+				"is_test":true,
+				"online":true
+			},{
+				"id":8,
+				"title":"迪达拉",
+				"subttile":"全球当季最炫款",
+				"category_id":17,
+				"root_category_id":3,
+				"price":"68.00",
+				"img":"http://192.168.1.101:8080/huoying/7.jpg",
+				"for_theme_img":"",
+				"description":null,
+				"discount_price":"66.00",
+				"tags":"包邮$热门",
+				"is_test":true,
+				"online":true
+			},{
+				"id":9,
+				"title":"绝",
+				"subttile":"全球当季最炫款",
+				"category_id":17,
+				"root_category_id":3,
+				"price":"68.00",
+				"img":"http://192.168.1.101:8080/huoying/8.jpg",
+				"for_theme_img":"",
+				"description":null,
+				"discount_price":"66.00",
+				"tags":"包邮$热门",
+				"is_test":true,
+				"online":true
+			},{
+				"id":10,
+				"title":"飞段",
+				"subttile":"全球当季最炫款",
+				"category_id":17,
+				"root_category_id":3,
+				"price":"68.00",
+				"img":"http://192.168.1.101:8080/huoying/9.jpg",
+				"for_theme_img":"",
+				"description":null,
+				"discount_price":"66.00",
+				"tags":"包邮$热门",
+				"is_test":true,
+				"online":true
+			},{
+				"id":11,
+				"title":"Sleeve电冰箱",
+				"subttile":"全球当季最炫款",
+				"category_id":17,
+				"root_category_id":3,
+				"price":"68.00",
+				"img":"http://192.168.1.101:8080/huoying/0.jpg",
+				"for_theme_img":"",
+				"description":null,
+				"discount_price":"66.00",
+				"tags":"包邮$热门",
+				"is_test":true,
+				"online":true
+			}
+		]
+    }
+ ,
 "banner": [
 {
     "id": 1,
@@ -59,7 +231,7 @@
     "items": [
         {
             "id": 12,
-            "img": "/image/banner1.png",
+            "img": "http://192.168.1.101:8080/onePiece/1.jpg",
             "keyword": "t-2",
             "type": 3,
             "name": null,
@@ -67,7 +239,7 @@
         },
         {
             "id": 13,
-            "img": "/image/banner2.png",
+            "img": "http://192.168.1.101:8080/onePiece/2.jpg",
             "keyword": "23",
             "type": 1,
             "name": null,
@@ -75,7 +247,55 @@
         },
         {
             "id": 14,
-            "img": "/image/banner3.png",
+            "img": "http://192.168.1.101:8080/onePiece/3.jpg",
+            "keyword": "24",
+            "type": 1,
+            "name": null,
+            "banner_id": 1
+        },
+		 {
+            "id": 15,
+            "img": "http://192.168.1.101:8080/onePiece/4.jpg",
+            "keyword": "t-2",
+            "type": 3,
+            "name": null,
+            "banner_id": 1
+        },
+        {
+            "id": 16,
+            "img": "http://192.168.1.101:8080/onePiece/5.jpg",
+            "keyword": "23",
+            "type": 1,
+            "name": null,
+            "banner_id": 1
+        },
+        {
+            "id": 17,
+            "img": "http://192.168.1.101:8080/onePiece/6.jpg",
+            "keyword": "24",
+            "type": 1,
+            "name": null,
+            "banner_id": 1
+        },
+		 {
+            "id": 18,
+            "img": "http://192.168.1.101:8080/onePiece/7.jpg",
+            "keyword": "t-2",
+            "type": 3,
+            "name": null,
+            "banner_id": 1
+        },
+        {
+            "id": 19,
+            "img": "http://192.168.1.101:8080/onePiece/8.jpg",
+            "keyword": "23",
+            "type": 1,
+            "name": null,
+            "banner_id": 1
+        },
+        {
+            "id": 20,
+            "img": "http://192.168.1.101:8080/onePiece/9.jpg",
             "keyword": "24",
             "type": 1,
             "name": null,
@@ -87,12 +307,12 @@
     "id": 2,
     "name": "b-2",
     "description": "热销商品banner",
-    "img": "http://i2.sleeve.7yue.pro/m4.png",
+    "img": "http://192.168.1.101:8080/banner-top.png",
     "title": null,
     "items": [
         {
             "id": 5,
-            "img": "http://i2.sleeve.7yue.pro/m6.png",
+            "img": "http://192.168.1.101:8080/left.jpg",
             "keyword": "28",
             "type": 1,
             "name": "left",
@@ -100,7 +320,7 @@
         },
         {
             "id": 6,
-            "img": "http://i2.sleeve.7yue.pro/m7.png",
+            "img": "http://192.168.1.101:8080/right1.jpg",
             "keyword": "26",
             "type": 1,
             "name": "right-top",
@@ -108,7 +328,7 @@
         },
         {
             "id": 7,
-            "img": "http://i2.sleeve.7yue.pro/m8.png",
+            "img": "http://192.168.1.101:8080/right2.jpg",
             "keyword": "27",
             "type": 1,
             "name": "right-bottom",
@@ -121,7 +341,7 @@
     {
         "id": 1,
         "title": "服装",
-        "img": "/image/clothing.png",
+        "img": "http://192.168.1.101:8080/clothing.png",
         "name": null,
         "category_id": null,
         "root_category_id": 2
@@ -129,7 +349,7 @@
     {
         "id": 2,
         "title": "包包",
-        "img": "/image/bag.png",
+        "img": "http://192.168.1.101:8080/bag.png",
         "name": null,
         "category_id": null,
         "root_category_id": 3
@@ -137,7 +357,7 @@
     {
         "id": 3,
         "title": "鞋",
-        "img": "/image/shoes.png",
+        "img": "http://192.168.1.101:8080/shoes.png",
         "name": null,
         "category_id": null,
         "root_category_id": 1
@@ -145,7 +365,7 @@
     {
         "id": 4,
         "title": "饰品",
-        "img": "/image/jewelry.png",
+        "img": "http://192.168.1.101:8080/jewelry.png",
         "name": null,
         "category_id": null,
         "root_category_id": 5
@@ -153,7 +373,7 @@
     {
         "id": 5,
         "title": "家具",
-        "img": "/image/furniture.png",
+        "img": "http://192.168.1.101:8080/furniture.png",
         "name": null,
         "category_id": null,
         "root_category_id": 4
@@ -161,10 +381,1069 @@
     {
         "id": 6,
         "title": "工艺",
-        "img": "/image/book.png",
+        "img": "http://192.168.1.101:8080/book.png",
         "name": null,
         "category_id": null,
         "root_category_id": 24
     }
-]
+],
+"activity" :{
+    "id": 2,
+    "title": "夏日好礼送不停",
+    "entrance_img": "http://192.168.1.101:8080/activity.png",
+    "online": true,
+    "remark": "限服装、鞋、文具等商品",
+    "start_time": null,
+    "end_time": null
+},
+"spu": [
+{
+	"start": 0,
+	"total": 17,
+    "count": 3,
+    "page": 0,
+    "total_page": 6,
+	"items": [
+        {
+            "id": 23,
+            "title": "Apple MacBook",
+            "subtitle": "新款八核M1芯片 8G 256G SSD 深空灰 笔记本电脑",
+            "img": "http://192.168.1.101:8080/preview/23.webp",
+            "for_theme_img": "http://i1.sleeve.7yue.pro/assets/702f2ce9-5729-4aa4-aeb3-921513327747.png",
+            "price": "9999.00",
+            "discount_price": null,
+            "description": null,
+            "tags": "",
+            "sketch_spec_id": "1",
+            "max_purchase_quantity": null,
+            "min_purchase_quantity": null
+        },
+        {
+            "id": 10,
+            "title": "Apple Watch",
+            "subtitle": "Apple Watch Series 6智能手表 GPS款 40毫米蓝色铝金属表壳 深海军蓝色运动型表带 MG143CH/A",
+            "img": "http://192.168.1.101:8080/preview/10.webp",
+            "for_theme_img": "",
+            "price": "3199.00",
+            "discount_price": "3099.00",
+            "description": null,
+            "tags": "",
+            "sketch_spec_id": null,
+            "max_purchase_quantity": null,
+            "min_purchase_quantity": null
+        },
+        {
+            "id": 3,
+            "title": "vivo X60",
+            "subtitle": "vivo X60 8GB+128GB 华彩 5G手机 蔡司光学镜头 微云台黑光夜视2.0 三星5nm旗舰芯片 双模5G全网通手机",
+            "img": "http://192.168.1.101:8080/preview/3.webp",
+            "for_theme_img": "https://gitee.com/lrelia7/sleeve-static/raw/master/theme/spu2.png",
+            "price": "1299.00",
+            "discount_price": "999.00",
+            "description": null,
+            "tags": "一飞推荐",
+            "sketch_spec_id": "1",
+            "max_purchase_quantity": null,
+            "min_purchase_quantity": null
+        }
+	]
+},
+{
+	"start": 3,
+	"total": 17,
+    "count": 3,
+    "page": 1,
+    "total_page": 6,
+	"items": [
+        {
+            "id": 15,
+            "title": "HUAWEI P40 Pro",
+            "subtitle": "华为 HUAWEI P40 Pro 麒麟990 5G SoC芯片 5000万超感知徕卡四摄 50倍数字变焦 8GB+256GB晨曦金全网通5G手机",
+            "img": "http://192.168.1.101:8080/preview/15.webp",
+            "for_theme_img": null,
+            "price": "6488.00",
+            "discount_price": "6300.00",
+            "description": null,
+            "tags": "名店有售$京东物流",
+            "sketch_spec_id": "1",
+            "max_purchase_quantity": null,
+            "min_purchase_quantity": null
+        },
+        {
+            "id": 14,
+            "title": "荣耀Play4T Pro",
+            "subtitle": "荣耀Play4T Pro 麒麟810芯片 OLED屏幕指纹 4800万高感光夜拍三摄 22.5W超级快充 全网通8GB+128GB 冰岛幻境",
+            "img": "http://192.168.1.101:8080/preview/14.webp",
+            "for_theme_img": null,
+            "price": "1788.00",
+            "discount_price": null,
+            "description": null,
+            "tags": "三色可选",
+            "sketch_spec_id": null,
+            "max_purchase_quantity": null,
+            "min_purchase_quantity": null
+        },
+        {
+            "id": 8,
+            "title": "小米11",
+            "subtitle": "小米11 5G 骁龙888 2K AMOLED四曲面柔性屏 1亿像素 55W有线闪充 50W无线闪充 8GB+256GB 蓝色 游戏手机",
+            "img": "http://192.168.1.101:8080/preview/8.webp",
+            "for_theme_img": "http://i1.sleeve.7yue.pro/assets/b6442702-4810-46cb-bb0b-f4602d38e4ff.png",
+            "price": "4299.00",
+            "discount_price": "3999.00",
+            "description": null,
+            "tags": "林白推荐",
+            "sketch_spec_id": "1",
+            "max_purchase_quantity": null,
+            "min_purchase_quantity": null
+        }
+	]
+},
+{
+	"start": 6,
+	"total": 17,
+    "count": 3,
+    "page": 2,
+    "total_page": 6,
+	"items": [
+        {
+            "id": 28,
+            "title": "索尼（SONY）Xperia1 II",
+            "subtitle": "Xperia1 II 5G智能手机 4K屏 骁龙865 12G+256G 微单技术 蔡司镀膜 拍照游戏 20帧/秒 青山绿",
+            "img": "http://192.168.1.101:8080/preview/28.webp",
+            "for_theme_img": "",
+            "price": "7699.00",
+            "discount_price": null,
+            "description": null,
+            "tags": "新品$复古流行",
+            "sketch_spec_id": "8",
+            "max_purchase_quantity": null,
+            "min_purchase_quantity": null
+        },
+        {
+            "id": 26,
+            "title": "苹果Apple iPhone 12 Pro",
+            "subtitle": "256GB 银色 支持移动联通电信5G 双卡双待手机",
+            "img": "http://192.168.1.101:8080/preview/26.jpg",
+            "for_theme_img": "",
+            "price": "10099.00",
+            "discount_price": "9999.99",
+            "description": null,
+            "tags": "",
+            "sketch_spec_id": "1",
+            "max_purchase_quantity": null,
+            "min_purchase_quantity": null
+        },
+        {
+            "id": 25,
+            "title": "联想(Lenovo)拯救者R7000P",
+            "subtitle": "15.6英寸游戏笔记本电脑(R7-4800H 16G 512G SSD RTX2060 144Hz100%sRGB)钛晶灰",
+            "img": "http://192.168.1.101:8080/preview/25.webp",
+            "for_theme_img": "",
+            "price": "8299.00",
+            "discount_price": "7699.00",
+            "description": null,
+            "tags": "复刻经典$爆款",
+            "sketch_spec_id": "1",
+            "max_purchase_quantity": null,
+            "min_purchase_quantity": null
+        }
+	]
+},
+{
+	"start": 9,
+	"total": 17,
+    "count": 3,
+    "page": 3,
+    "total_page": 6,
+	"items": [
+        {
+            "id": 24,
+            "title": "三星（SAMSUNG）",
+            "subtitle": "500GB SSD固态硬盘 M.2接口(NVMe协议) 970 EVO（MZ-V7E500BW）",
+            "img": "http://192.168.1.101:8080/preview/6.jpg",
+            "for_theme_img": "http://i1.sleeve.7yue.pro/assets/b8e510a1-8340-43c2-a4b0-0e56a40256f9.png",
+            "price": "539.00",
+            "discount_price": "499.00",
+            "description": null,
+            "tags": "高性能",
+            "sketch_spec_id": "1",
+            "max_purchase_quantity": null,
+            "min_purchase_quantity": null
+        },
+        {
+            "id": 27,
+            "title": "生活元素（LIFE ELEMENT）",
+            "subtitle": "插电式电热饭盒 保温饭盒 便携式加热饭盒双层不锈钢内胆 1.5L三胆 F36",
+            "img": "http://192.168.1.101:8080/preview/27.jpg",
+            "for_theme_img": "http://i1.sleeve.7yue.pro/assets/f6c9fce8-626f-44c0-a709-3f6ef9f3fbef.png",
+            "price": "179.00",
+            "discount_price": null,
+            "description": null,
+            "tags": "",
+            "sketch_spec_id": "1",
+            "max_purchase_quantity": null,
+            "min_purchase_quantity": null
+        },
+        {
+            "id": 12,
+            "title": "科沃斯（Ecovacs）",
+            "subtitle": "窗宝W880 DS擦窗机器人擦玻璃擦窗机器人家用擦窗神器WB10.10",
+            "img": "http://192.168.1.101:8080/preview/12.jpg",
+            "for_theme_img": "",
+            "price": "1688.00",
+            "discount_price": null,
+            "description": null,
+            "tags": "测试数据$可支付",
+            "sketch_spec_id": null,
+            "max_purchase_quantity": null,
+            "min_purchase_quantity": null
+        }
+	]
+},
+{
+	"start": 12,
+	"total": 17,
+    "count": 3,
+    "page": 4,
+    "total_page": 6,
+	"items": [
+        {
+            "id": 11,
+            "title": "任天堂 Nintendo Switch",
+            "subtitle": "国行续航增强版 NS家用体感游戏机掌机 便携掌上游戏机 红蓝主机",
+            "img": "http://192.168.1.101:8080/preview/11.jpg",
+            "for_theme_img": "",
+            "price": "2099.00",
+            "discount_price": null,
+            "description": null,
+            "tags": null,
+            "sketch_spec_id": null,
+            "max_purchase_quantity": null,
+            "min_purchase_quantity": null
+        },
+        {
+            "id": 6,
+            "title": "外星人Alienware m17",
+            "subtitle": "17.3英寸游戏本(十代i9 RTX2080 SUPER)+鼠标+耳机+34英寸电竞屏+24x7全面保障",
+            "img": "http://192.168.1.101:8080/preview/6.jpg",
+            "for_theme_img": "",
+            "price": "61425.00",
+            "discount_price": "",
+            "description": null,
+            "tags": "包邮$买不起",
+            "sketch_spec_id": "1",
+            "max_purchase_quantity": null,
+            "min_purchase_quantity": null
+        },
+        {
+            "id": 2,
+            "title": "布偶猫幼猫",
+            "subtitle": "布偶猫幼猫崽活体纯种宠物猫咪仙女猫蓝颜蓝双海双重点手套色赛级家养 宠物级 公",
+            "img": "http://192.168.1.101:8080/preview/2.jpg",
+            "for_theme_img": "https://gitee.com/lrelia7/sleeve-static/raw/master/theme/spu1.png",
+            "price": "6800.00",
+            "discount_price": "6799.00",
+            "description": null,
+            "tags": null,
+            "sketch_spec_id": "1",
+            "max_purchase_quantity": null,
+            "min_purchase_quantity": null
+        }
+	]
+},{
+	"start": 15,
+	"total": 17,
+    "count": 3,
+    "page": 5,
+    "total_page": 6,
+	"items": [
+        {
+            "id": 4,
+            "title": "华为平板MatePad",
+            "subtitle": "5G 10.4英寸麒麟820游戏影音娱乐办公学习 专属教育 2K全面屏平板电脑 6+128GB全网通 灰",
+            "img": "http://192.168.1.101:8080/preview/4.jpg",
+            "for_theme_img": "",
+            "price": "3199.00",
+            "discount_price": "3100.00",
+            "description": null,
+            "tags": "风袖臻选",
+            "sketch_spec_id": "5",
+            "max_purchase_quantity": null,
+            "min_purchase_quantity": null
+        },
+        {
+            "id": 1,
+            "title": "Apple iPad Air",
+            "subtitle": "10.9英寸 平板电脑（ 2020年新款 256G WLAN版/A14芯片/触控ID/全面屏MYFY2CH/A）天蓝色",
+            "img": "http://192.168.1.101:8080/preview/1.jpg",
+            "for_theme_img": "",
+            "price": "5999.00 ",
+            "discount_price": "5899.00",
+            "description": null,
+            "tags": "京东物流",
+            "sketch_spec_id": "1",
+            "max_purchase_quantity": null,
+            "min_purchase_quantity": null
+        }
+	]
+}],
+"detail": {
+	"id":15,
+	"title": "HUAWEI P40 Pro",
+	"subtitle": "华为 HUAWEI P40 Pro 麒麟990 5G SoC芯片",
+	"category_id":12,
+	"root_category_id":24,
+	"price": "6488.00",
+	"img": "http://192.168.1.101:8080/details/1.jpg",
+	"for_theme_img":"",
+	"description":null,
+	"discount_price": "6300.00",
+	"tags": "名店有售$京东物流",
+	"is_test":true,
+	"online":true,
+	"sku_list":[
+		{
+			"id":2,
+			"price":77.76,
+			"discount_price":null,
+			"online":true,
+			"img":"http://192.168.1.101:8080/details/1.jpg",
+			"title":"金属灰·七龙珠",
+			"spu_id":2,
+			"category_id":17,
+			"root_category_id":3,
+			"specs":[
+				{
+					"key_id":1,
+					"key":"颜色",
+					"value_id":45,
+					"value":"金属灰"
+				},
+				{
+					"key_id":3,
+					"key":"图案",
+					"value_id":9,
+					"value":"七龙珠"
+				},
+				{
+					"key_id":4,
+					"key":"尺码",
+					"value_id":14,
+					"value":"小号 S"
+				}
+			],
+			"code":"15$1-45#3-9#4-14",
+			"stock":5
+		},
+		{
+			"id":3,
+			"price":66,
+			"discount_price":59,
+			"online":true,
+			"img":"http://192.168.1.101:8080/details/2.jpg",
+			"title":"青芒色·灌篮高手",
+			"spu_id":2,
+			"category_id":17,
+			"root_category_id":3,
+			"specs":[
+				{
+					"key_id":1,
+					"key":"颜色",
+					"value_id":42,
+					"value":"青芒色"
+				},
+				{
+					"key_id":3,
+					"key":"图案",
+					"value_id":10,
+					"value":"灌篮高手"
+				},
+				{
+					"key_id":4,
+					"key":"尺码",
+					"value_id":15,
+					"value":"中号 M"
+				}
+			],
+			"code":"15$1-42#3-10#4-15",
+			"stock":999
+		},
+		{
+			"id":4,
+			"price":88,
+			"discount_price":null,
+			"online":true,
+			"img":"http://192.168.1.101:8080/details/2.jpg",
+			"title":"青芒色·圣斗士",
+			"spu_id":2,
+			"category_id":17,
+			"root_category_id":3,
+			"specs":[
+				{
+					"key_id":1,
+					"key":"颜色",
+					"value_id":42,
+					"value":"青芒色"
+				},
+				{
+					"key_id":3,
+					"key":"图案",
+					"value_id":11,
+					"value":"圣斗士"
+				},
+				{
+					"key_id":4,
+					"key":"尺码",
+					"value_id":16,
+					"value":"大号 L"
+				}
+			],
+			"code":"15$1-42#3-11#4-16",
+			"stock":8
+		},
+		{
+			"id":5,
+			"price":77,
+			"discount_price":59,
+			"online":true,
+			"img":"http://192.168.1.101:8080/details/3.jpg",
+			"title":"橘黄色·七龙珠",
+			"spu_id":2,
+			"category_id":17,
+			"root_category_id":3,
+			"specs":[
+				{
+					"key_id":1,
+					"key":"颜色",
+					"value_id":44,
+					"value":"橘黄色"
+				},
+				{
+					"key_id":3,
+					"key":"图案",
+					"value_id":9,
+					"value":"七龙珠"
+				},
+				{
+					"key_id":4,
+					"key":"尺码",
+					"value_id":14,
+					"value":"小号 S"
+				}
+			],
+			"code":"15$1-44#3-9#4-14",
+			"stock":7
+		}
+	],
+	"spu_img_list":[
+		{
+			"id":24,
+			"img":"http://192.168.1.101:8080/details/4.jpg",
+			"spu_id":2,
+			"index":1
+		},
+		{
+			"id":25,
+			"img":"http://192.168.1.101:8080/details/5.jpg",
+			"spu_id":2,
+			"index":1
+		},
+		{
+			"id":26,
+			"img":"http://192.168.1.101:8080/details/6.jpg",
+			"spu_id":2,
+			"index":1
+		}
+	],
+	"spu_detail_img_list":[
+		{
+			"id":165,
+			"img":"",
+			"spu_id":2
+		}
+	],
+	"sketch_spec_id":1,
+	"default_sku_id":2
+},
+"fixed":[
+{
+	"id":1,
+	"fixed":true,
+	"text":"发货地：上海",
+	"spu_id":null,
+	"index":1,
+	"replace_id":null
+},
+{
+	"id":2,
+	"fixed":true,
+	"text":"物流：顺丰",
+	"spu_id":null,
+	"index":2,
+	"replace_id":null
+},
+{
+	"id":3,
+	"fixed":true,
+	"text":"发货时间：七个工作日",
+	"spu_id":null,
+	"index":3,
+	"replace_id":null
+},
+{
+	"id":4,
+	"fixed":true,
+	"text":"售后：不支持7天无理由退货",
+	"spu_id":null,
+	"index":4,
+	"replace_id":null
+}
+],
+"categories":{
+	"roots":[
+		{	"id":1,
+			"name":"至臻限定",
+			"is_root":true,
+			"img":"http://192.168.1.101:8080/lol/1.jpg",
+			"parent_id":null,
+			"index":null
+		},{
+			"id":2,
+			"name":"电玩",
+			"is_root":true,
+			"img":"",
+			"parent_id":null,
+			"index":null
+		},{
+			"id":3,
+			"name":"黑夜使者",
+			"is_root":true,
+			"img":"",
+			"parent_id":null,
+			"index":null
+		},{
+			"id":4,
+			"name":"黎明使者",
+			"is_root":true,
+			"img":"",
+			"parent_id":null,
+			"index":null
+		},{
+			"id":5,
+			"name":"年限",
+			"is_root":true,
+			"img":"http://192.168.1.101:8080/lol/5.jpg",
+			"parent_id":null,
+			"index":null
+		},{
+			"id":6,
+			"name":"情人节",
+			"is_root":true,
+			"img":"",
+			"parent_id":null,
+			"index":null
+		},{
+			"id":7,
+			"name":"糖果大招",
+			"is_root":true,
+			"img":"",
+			"parent_id":null,
+			"index":null
+		},{
+			"id":8,
+			"name":"KDA",
+			"is_root":true,
+			"img":"http://192.168.1.101:8080/lol/8.jpg",
+			"parent_id":null,
+			"index":null
+		},{
+			"id":9,
+			"name":"未来战士",
+			"is_root":true,
+			"img":"",
+			"parent_id":null,
+			"index":null
+		},{
+			"id":10,
+			"name":"总冠军",
+			"is_root":true,
+			"img":"",
+			"parent_id":null,
+			"index":null
+		},{
+			"id":11,
+			"name":"星之守护者",
+			"is_root":true,
+			"img":"",
+			"parent_id":null,
+			"index":null
+		},{
+			"id":12,
+			"name":"腥红之月",
+			"is_root":true,
+			"img":"",
+			"parent_id":null,
+			"index":null
+		},{
+			"id":13,
+			"name":"泳池派对",
+			"is_root":true,
+			"img":"",
+			"parent_id":null,
+			"index":null
+		},{
+			"id":14,
+			"name":"玉剑传说",
+			"is_root":true,
+			"img":"",
+			"parent_id":null,
+			"index":null
+		},{
+			"id":15,
+			"name":"源计划",
+			"is_root":true,
+			"img":"",
+			"parent_id":null,
+			"index":null
+		},{
+			"id":16,
+			"name":"战斗学院",
+			"is_root":true,
+			"img":"",
+			"parent_id":null,
+			"index":null
+		},{
+			"id":17,
+			"name":"真实伤害",
+			"is_root":true,
+			"img":"",
+			"parent_id":null,
+			"index":null
+		},{
+			"id":18,
+			"name":"周年庆",
+			"is_root":true,
+			"img":"",
+			"parent_id":null,
+			"index":null
+		},{
+			"id":19,
+			"name":"西部系列",
+			"is_root":true,
+			"img":"",
+			"parent_id":null,
+			"index":null
+		},{
+			"id":20,
+			"name":"万圣节",
+			"is_root":true,
+			"img":"",
+			"parent_id":null,
+			"index":null
+		}
+	],
+	"subs":[
+		{	"id":10001,
+			"name":"神龙尊者 炎龙瑟提",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/至臻限定/c-img1.png",
+			"parent_id":1,
+			"index":null
+		},{	"id":10002,
+			"name":"王国机神玄武 盖伦",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/至臻限定/c-img2.png",
+			"parent_id":1,
+			"index":null
+		},{	"id":10003,
+			"name":"星之守护者 索拉卡",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/至臻限定/c-img3.png",
+			"parent_id":1,
+			"index":null
+		},{	"id":10004,
+			"name":"灵能特工 伊泽瑞尔",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/至臻限定/c-img4.png",
+			"parent_id":1,
+			"index":null
+		},{	"id":10005,
+			"name":"K/DA ALL 卡莎",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/至臻限定/c-img5.png",
+			"parent_id":1,
+			"index":null
+		},{	"id":10006,
+			"name":"魔女 婕拉",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/至臻限定/c-img6.png",
+			"parent_id":1,
+			"index":null
+		},{	"id":10007,
+			"name":"暗星 墨菲特",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/至臻限定/c-img7.png",
+			"parent_id":1,
+			"index":null
+		},{	"id":10008,
+			"name":"奥术师 佐伊",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/至臻限定/c-img8.png",
+			"parent_id":1,
+			"index":null
+		},{	"id":10009,
+			"name":"灵魂莲华 提莫",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/至臻限定/c-img9.png",
+			"parent_id":1,
+			"index":null
+		},{	"id":10010,
+			"name":"真实伤害 亚索",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/至臻限定/c-img10.png",
+			"parent_id":1,
+			"index":null
+		},{	"id":10011,
+			"name":"真实伤害 赛娜",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/至臻限定/c-img11.png",
+			"parent_id":1,
+			"index":null
+		},{	"id":10012,
+			"name":"未来战士 卢锡安",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/至臻限定/c-img12.png",
+			"parent_id":1,
+			"index":null
+		},{	"id":103015,
+			"name":"K/DA 阿狸",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/KDA/103015.webp",
+			"parent_id":8,
+			"index":null
+		},{	"id":84009,
+			"name":"K/DA 阿卡丽",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/KDA/84009.webp",
+			"parent_id":8,
+			"index":null
+		},{	"id":145014,
+			"name":"K/DA 卡莎",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/KDA/145014.webp",
+			"parent_id":8,
+			"index":null
+		},{	"id":28006,
+			"name":"K/DA 伊芙琳",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/KDA/28006.webp",
+			"parent_id":8,
+			"index":null
+		},{	"id":64003,
+			"name":"龙的传人 李青",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/年限/64003.webp",
+			"parent_id":5,
+			"index":null
+		},{	"id":64022,
+			"name":"李青 见龙在田",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/年限/64022.webp",
+			"parent_id":5,
+			"index":null
+		},{	"id":64007,
+			"name":"李青 飞龙在天",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/年限/64007.webp",
+			"parent_id":5,
+			"index":null
+		},{	"id":64008,
+			"name":"李青 跃龙在渊",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/年限/64008.webp",
+			"parent_id":5,
+			"index":null
+		},{	"id":64009,
+			"name":"李青 亢龙有悔",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/年限/64009.webp",
+			"parent_id":5,
+			"index":null
+		},{	"id":92005,
+			"name":"替父从军 花木兰",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/年限/92005.webp",
+			"parent_id":5,
+			"index":null
+		},{	"id":1008,
+			"name":"蛇年 安妮",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/年限/1008.webp",
+			"parent_id":5,
+			"index":null
+		},{	"id":69004,
+			"name":"碧玉之牙 蛇蛇",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/年限/69004.webp",
+			"parent_id":5,
+			"index":null
+		},{	"id":42006,
+			"name":"神龙之翼 库奇",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/年限/42006.webp",
+			"parent_id":5,
+			"index":null
+		},{	"id":131002,
+			"name":"广寒仙子 嫦娥",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/年限/131002.webp",
+			"parent_id":5,
+			"index":null
+		},{	"id":222002,
+			"name":"神龙烈焰 金克丝",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/年限/222002.webp",
+			"parent_id":5,
+			"index":null
+		},{	"id":62005,
+			"name":"美猴王 孙悟空",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/年限/62005.webp",
+			"parent_id":5,
+			"index":null
+		},{	"id":51010,
+			"name":"玉净夜叉 凯特琳",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/年限/51010.webp",
+			"parent_id":5,
+			"index":null
+		},{	"id":25010,
+			"name":"紫金罗刹 莫甘娜",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/年限/25010.webp",
+			"parent_id":5,
+			"index":null
+		},{	"id":86011,
+			"name":"张辽 文远",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/年限/86011.webp",
+			"parent_id":5,
+			"index":null
+		},{	"id":268004,
+			"name":"司马懿 仲达",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/年限/268004.webp",
+			"parent_id":5,
+			"index":null
+		},{	"id":254005,
+			"name":"虎痴之拳 蔚",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/年限/254005.webp",
+			"parent_id":5,
+			"index":null
+		},{	"id":62003,
+			"name":"定海神珍 孙悟空",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/年限/62003.webp",
+			"parent_id":5,
+			"index":null
+		},{	"id":91003,
+			"name":"银龙裁决 泰隆",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/年限/91003.webp",
+			"parent_id":5,
+			"index":null
+		},{	"id":96005,
+			"name":"醒狮 克格莫",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/年限/96005.webp",
+			"parent_id":5,
+			"index":null
+		},{	"id":37004,
+			"name":"古琴余韵 娑娜",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/年限/37004.webp",
+			"parent_id":5,
+			"index":null
+		},{	"id":99008,
+			"name":"春晖神女 拉克丝",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/年限/99008.webp",
+			"parent_id":5,
+			"index":null
+		},{	"id":19010,
+			"name":"南天之怒 沃里克",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/年限/19010.webp",
+			"parent_id":5,
+			"index":null
+		},{	"id":75011,
+			"name":"北辰之威 内瑟斯",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/年限/75011.webp",
+			"parent_id":5,
+			"index":null
+		},{	"id":21007,
+			"name":"电玩女神 厄运小姐",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/电玩/21007.webp",
+			"parent_id":2,
+			"index":null
+		},{	"id":92006,
+			"name":"电玩勇者 锐雯",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/电玩/92006.webp",
+			"parent_id":2,
+			"index":null
+		},{	"id":103007,
+			"name":"电玩女神 阿狸",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/电玩/103007.webp",
+			"parent_id":2,
+			"index":null
+		},{	"id":120004,
+			"name":"电玩战魂 赫卡里姆",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/电玩/120004.webp",
+			"parent_id":2,
+			"index":null
+		},{	"id":42008,
+			"name":"电玩上校 库奇",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/电玩/42008.webp",
+			"parent_id":2,
+			"index":null
+		},{	"id":81009,
+			"name":"电玩勇者 伊泽瑞尔",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/电玩/81009.webp",
+			"parent_id":2,
+			"index":null
+		},{	"id":45008,
+			"name":"最终BOSS 维迦",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/电玩/45008.webp",
+			"parent_id":2,
+			"index":null
+		},{	"id":37005,
+			"name":"电玩女神 娑娜",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/电玩/37005.webp",
+			"parent_id":2,
+			"index":null
+		},{	"id":53011,
+			"name":"战场BOSS 布里茨",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/电玩/53011.webp",
+			"parent_id":2,
+			"index":null
+		},{	"id":51019,
+			"name":"电玩女神 凯特琳",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/电玩/51019.webp",
+			"parent_id":2,
+			"index":null
+		},{	"id":16016,
+			"name":"黑夜使者 索拉卡",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/黑夜使者/16016.webp",
+			"parent_id":3,
+			"index":null
+		},{	"id":523001,
+			"name":"黑夜使者 厄斐琉斯",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/黑夜使者/523001.webp",
+			"parent_id":3,
+			"index":null
+		},{	"id":157009,
+			"name":"黑夜使者 亚索",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/黑夜使者/157009.webp",
+			"parent_id":3,
+			"index":null
+		},{	"id":64027,
+			"name":"黑夜使者 李青",
+			"is_root":false,
+			"img":"http://192.168.1.101:8080/lol/黑夜使者/64027.webp",
+			"parent_id":3,
+			"index":null
+		}
+	]
+},
+"tag": [
+	{
+		"id":1,
+		"title":"星之守护者",
+		"highlight":1,
+		"description":null,
+		"type":1
+	},
+	{
+		"id":3,
+		"title":"年限",
+		"highlight":0,
+		"description":null,
+		"type":1
+	},
+	{
+		"id":2,
+		"title":"1",
+		"highlight":1,
+		"description":null,
+		"type":1
+	}
+],
+"search":[{
+	"q":1,
+	"start": 0,
+	"total": 17,
+    "count": 10,
+    "page": 0,
+    "total_page": 6,
+	"items": [
+        {
+            "id": 15,
+            "title": "HUAWEI P40 Pro",
+            "subtitle": "华为 HUAWEI P40 Pro 麒麟990 5G SoC芯片 5000万超感知徕卡四摄 50倍数字变焦 8GB+256GB晨曦金全网通5G手机",
+            "img": "http://192.168.1.101:8080/preview/15.webp",
+            "for_theme_img": null,
+            "price": "6488.00",
+            "discount_price": "6300.00",
+            "description": null,
+            "tags": "名店有售$京东物流",
+            "sketch_spec_id": "1",
+            "max_purchase_quantity": null,
+            "min_purchase_quantity": null
+        },
+        {
+            "id": 14,
+            "title": "荣耀Play4T Pro",
+            "subtitle": "荣耀Play4T Pro 麒麟810芯片 OLED屏幕指纹 4800万高感光夜拍三摄 22.5W超级快充 全网通8GB+128GB 冰岛幻境",
+            "img": "http://192.168.1.101:8080/preview/14.webp",
+            "for_theme_img": null,
+            "price": "1788.00",
+            "discount_price": null,
+            "description": null,
+            "tags": "三色可选",
+            "sketch_spec_id": null,
+            "max_purchase_quantity": null,
+            "min_purchase_quantity": null
+        },
+        {
+            "id": 8,
+            "title": "小米11",
+            "subtitle": "小米11 5G 骁龙888 2K AMOLED四曲面柔性屏 1亿像素 55W有线闪充 50W无线闪充 8GB+256GB 蓝色 游戏手机",
+            "img": "http://192.168.1.101:8080/preview/8.webp",
+            "for_theme_img": "http://i1.sleeve.7yue.pro/assets/b6442702-4810-46cb-bb0b-f4602d38e4ff.png",
+            "price": "4299.00",
+            "discount_price": "3999.00",
+            "description": null,
+            "tags": "林白推荐",
+            "sketch_spec_id": "1",
+            "max_purchase_quantity": null,
+            "min_purchase_quantity": null
+        }
+	]
+}]
 }

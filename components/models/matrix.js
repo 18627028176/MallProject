@@ -25,13 +25,26 @@ class Matrix{
      * 这里调用forEach可以拿到任意位置的元素，和常规的遍历有区别
      * @param cb回调函数
      */
-    forEach(cb){
+    each(cb){
         for (let j=0;j<this.colsNum;j++){
             for (let i=0;i<this.rowsNum;i++){
                 const element = this.m[i][j]
                 cb(element,i,j)
             }
         }
+    }
+
+    //实现矩阵的转置
+    transpose(){
+        const desArr = []
+        for (let j=0;j<this.colsNum;j++){
+            //创建一个二维数组
+            desArr[j] = []
+            for (let i=0;i<this.rowsNum;i++){
+                desArr[j][i] = this.m[i][j]
+            }
+        }
+        return desArr
     }
 }
 

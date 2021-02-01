@@ -1,5 +1,9 @@
 // pages/detail/detail.js
 import {Spu} from "../../model/spu";
+import {ShoppingWay} from "../../core/enum";
+import {SaleExpalin} from "../../model/saleExpalin";
+import {px2rpx} from "../../miniprogram_npm/lin-ui/utils/util";
+import {getSystemSize} from "../../utils/system";
 
 Page({
 
@@ -7,7 +11,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    showRealm:false
   },
 
   /**
@@ -18,50 +22,56 @@ Page({
     const pid = options.pid
     const spu = await Spu.getDeteil(pid)
 
+    const explain = await SaleExpalin.getFixed()
+    const res = await getSystemSize()
+    //获取当前用户手机px转成rpx的数值
+    const windowHeightRpx = px2rpx(res.windowHeight)
+    const h = windowHeightRpx - 100
     this.setData({
-      spu
+      setHeight:h,
+      spu,
+      explain
     })
   },
+
+  onGotoHome(event) {
+    wx.switchTab({
+      url:'/pages/home/home'
+    })
+  },
+
+  onGotoCart(event) {
+    wx.switchTab({
+      url:'/pages/cart/cart'
+    })
+  },
+
+  onAddToCart(event) {
+    this.setData({
+      showRealm:true,
+      orderWay:ShoppingWay.CART
+    })
+  },
+
+  onBuy(event) {
+    this.setData({
+      showRealm:true,
+      orderWay:ShoppingWay.BUY
+    })
+  },
+
+  //接受realm传达的值,封装成specs传给页面骨架
+  onSpecChange(event){
+    this.setData({
+      specs:event.detail
+    })
+  },
+
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
 
   },
 

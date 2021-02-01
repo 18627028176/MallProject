@@ -1,0 +1,30 @@
+<view bind:tap="onTap" class="container {{c.statusStyle(cell.status).outer}}">
+    <view class="inner-container {{c.statusStyle(cell.status).inner}}">
+        <!-- 设置mode="aspectFit" 图片自适应 -->
+        <image src="{{cell.skuImg}}" mode="aspectFit" class="img" wx:if="{{cell.skuImg}}"></image>
+        <text class="{{c.statusStyle(cell.status).inmost}}">{{cell.title}}</text>
+    </view>
+</view>
+
+
+<!-- 相当于script -->
+<wxs module="c">
+    function statusStyle(status) {
+        if(status === 'forbidden'){
+            return {
+            outer: 'forbidden',
+            inner: '',
+            inmost:''
+            }
+        }
+        if(status === 'selected'){
+            return {
+                outer: 's-outer',
+                inner: 's-inner',
+                inmost:'selected'
+            }
+        }
+    }
+
+    module.exports.statusStyle = statusStyle
+</wxs>
